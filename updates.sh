@@ -39,8 +39,6 @@ repopick -P frameworks/av ${changes[@]}&
 changes=(
 256447 # SystemUI: Add Profiles tile
 258303 # power: Re-introduce custom charging sounds
-
-258820 # SystemUI: Add visualizer feature
 258826 # SystemUI: Dismiss keyguard on boot if disabled by current profile
 258827 # SystemUI: Don't dismiss keyguard if user key isn't unlocked
 259458 # storage: Do not notify for volumes on non-removable disks
