@@ -35,19 +35,6 @@ changes=(
 )
 repopick -P frameworks/av ${changes[@]}&
 
-# frameworks/base
-changes=(
-256447 # SystemUI: Add Profiles tile
-258303 # power: Re-introduce custom charging sounds
-258826 # SystemUI: Dismiss keyguard on boot if disabled by current profile
-258827 # SystemUI: Don't dismiss keyguard if user key isn't unlocked
-259458 # storage: Do not notify for volumes on non-removable disks
-260002 # fw/b: Squash of app fw restriction commits
-261314 # Allow override of DUN settings
-263007 # SystemUI: get rid of build text in qs
-263116 # SystemUI: Revive navbar layout tuning via sysui_nav_bar tunable
-)
-repopick -P frameworks/base ${changes[@]}&
 
 # hardware/lineage/interfaces
 changes=(
