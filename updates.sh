@@ -77,12 +77,7 @@ changes=(
 )
 repopick -P packages/apps/ExactCalculator ${changes[@]}&
 
-# packages/apps/LineageParts
-changes=(
-258825 # LineageParts: Reenable system profiles
-260416 # Parts: Convert charging sound path to uri
-)
-repopick -P packages/apps/LineageParts ${changes[@]}&
+
 
 # packages/apps/Nfc
 changes=(
