@@ -151,7 +151,6 @@ changes=(
 #259683 # lineage: don't mount system during install{boot,recovery}
 #262320 # aosp_audio: copy our own old AOSP alarm variants
 264912 # soong: Add AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT
-255667 # adb insecure by default
 )
 repopick -P vendor/lineage ${changes[@]}&
 
