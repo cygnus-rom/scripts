@@ -7,4 +7,7 @@ repo init -u git://github.com/cygnus-rom/manifest.git -b ten
 repo sync -j$(nproc --all) --force-sync --no-tags --no-clone-bundle --prune --optimized-fetch
 mv $HOME/scripts/updates.sh $PWD
 bash updates.sh
-
+cd vendor/opengapps/sources/arm
+git lfs pull
+cd .. && cd arm64
+git lfs pull
