@@ -19,7 +19,7 @@ import subprocess
 import select
 cmd = subprocess.Popen(['bash'], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
 os.system("$PWD/upload.sh")
-
+os.system("rm $largest")
 
 objects = os.listdir("out/target/product/q/obj/PACKAGING/target_files_intermediates")
 sofar = 0
