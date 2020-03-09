@@ -3,7 +3,7 @@ import time
 import glob
 import subprocess
 import select
-
+devicename="beryllium"
 fin = open("uploader.py", "rt")
 data = fin.read()
 data = data.replace('q', devicename)
