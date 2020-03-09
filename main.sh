@@ -1,4 +1,4 @@
-cp upload.sh $HOME/cygnus/
-cp replacer.py $HOME/cygnus/
-cp uploader.py $HOME/cygnus/
+mv $PWD/scripts/upload.sh $HOME/cygnus/
+mv $PWD/scripts/replacer.py $HOME/cygnus/
+mv $PWD/scripts/uploader.py $HOME/cygnus/
 python3 $HOME/cygnus/replacer.py
